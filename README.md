@@ -60,7 +60,7 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Sales performance by time, city, and payment method.
      - Analyzing peak sales periods and customer buying patterns.
      - Profit margin analysis by branch and category.
-       ```sql
+```sql
        select category,
 sum(total)as total_revenue,
 sum(total*profit_margin) as profit
