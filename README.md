@@ -65,9 +65,10 @@ This project is an end-to-end data analysis solution designed to extract critica
  group by branch,category;
 ```
 
-     - Sales performance by time, city, and payment method.
-     - Analyzing peak sales periods and customer buying patterns.
-     - Profit margin analysis by branch and category.
+      - Sales performance by time, city, and payment method.
+      - Analyzing peak sales periods and customer buying patterns.
+      - Profit margin analysis by branch and category.
+      
 ```sql
        select category,
 sum(total)as total_revenue,
