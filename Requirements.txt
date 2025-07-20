@@ -1,0 +1,19 @@
+installing pandas
+installing psycopg2 for postgre SQL 
+and then from sqlalchemy import create_engine   --> we can connect to postgre SQL
+
+ for Mysql Toolkit
+ pymysql - this works as an adapter
+ sqlalchemy create_engine
+
+ for postgre SQL 
+ host = local host
+ port = 5432
+ user = postgres
+ password = 'your password'
+
+  for MYSQSQL 
+ host = local host
+ port = 3306
+ user = root
+ password = 'your password'
